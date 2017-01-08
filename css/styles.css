@@ -75,7 +75,7 @@ a:visited {
     color: black;
 }
 
-/* transition effects for about section*/
+/* about section transition effects*/
 .transition {
     position: relative;
 }
@@ -124,12 +124,36 @@ a:visited {
     visibility: hidden;
     text-decoration: none;
 }
-.thumb:hover span { 
+.thumb:hover span.redsauce { 
     visibility: visible;
-    top: -100px;
-    left: -250px;
+    top: 0px;
+    left: -60px;
 }
-
+.thumb:hover span.yellowsauce { 
+    visibility: visible;
+    top: 0px;
+    left: -260px;
+}
+.thumb:hover span.ghostsauce { 
+    visibility: visible;
+    top: 0px;
+    left: -450px;
+}
+.thumb:hover span.greensauce { 
+    visibility: visible;
+    top: 0px;
+    left: -60px;
+}
+.thumb:hover span.giftbox { 
+    visibility: visible;
+    top: 0px;
+    left: -260px;
+}
+.thumb:hover span.gear { 
+    visibility: visible;
+    top: 0px;
+    left: -450px;
+}
 
 /* change collapse nav breakpoint */
 @media (max-width: 1200px) {
